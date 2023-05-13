@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-image:url(/Imagenes/fondo.jpg);
+    font-style:italic;
+}
+
+.nav-header{
+    display: flex;
+    height: 65px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 20px;
+    color: rgb(245, 248, 244);
+    background-color: rgba(0, 0, 0, 0.451);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    font-size: 19px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.166);
+    justify-content:space-around;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    align-content:center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.seccion-1{
+    display: flex;
+    margin: 3%;
+    width: 30%;
+    padding: 50px;
+    border-radius: 20px;
+    color: rgb(253, 198, 0);
+    background-color: rgba(0, 0, 0, 0.816);
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foto_iron_man{
+    width: 100%;
+    height: 620px;
+    border-radius: 20px;
+}
+
+.seccion-gif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+
+.seccion-2{
+    width: 1000px;
+    display: flex;
+    font-size: 200%;
+    margin: 3%;
+    padding: 50px;
+    border-radius: 20px;
+    color: rgb(253, 198, 0);
+    background-color: rgba(0, 0, 0, 0.816);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gif_luna{
+    width: auto;
+    height: 620px;
+    border-radius: 20px;
+}
+
+.seccion-3{
+    width: 100%;
+    display: flex;
+    font-size: 200%;
+    margin: 3%;
+    padding: 3px;
+    border-radius: 20px;
+    color: rgb(253, 198, 0);
+    background-color: rgba(0, 0, 0, 0.816); 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-footer{
+    display: flex;
+    font-size: medium;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(245, 248, 244);
+    background-color: rgba(0, 0, 0, 0.451);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer{
+    display: flex;
+    font-size: 19px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.166);
+    justify-content:space-between;
+    align-items: center;
+}
